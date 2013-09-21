@@ -39,6 +39,7 @@ void escreveMensagem(string mensagem, int demora = 20)
 
 int main()
 {
+
     int numJogadores, posicaoJogadores[2], vidaJogadores[2], jogadorAtual = 0, dado, ataque;
 	int numeroCasas = 30;
     string nomeJogadores[2];
@@ -47,7 +48,7 @@ int main()
     srand(time(0));
     setlocale( LC_ALL, "ptb" );
 
-	/*cout << endl << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+	cout << endl << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
     cout << "\t\t\t\tAtaque dos Zumbis\n\n";
     desenhaZumbi();
     cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
@@ -63,7 +64,7 @@ int main()
     escreveMensagem("Sua missão é sobreviver por 30 quadras e chegar até o nosso QG.\n");
     escreveMensagem("Boa sorte!\n");
     escreveMensagem("\n\nFim de tranmissão...\n");
-    cout << endl;*/
+    cout << endl;
 
 	cout << "Quantos jogadores vão sobreviver, 1 ou 2 ?" ;
     cin >> numJogadores;
